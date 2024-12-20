@@ -1,6 +1,5 @@
-export async function requestAPI(inputNameValue, inputYearValue) {
+export default async function requestAPI(inputNameValue, inputYearValue) {
   const key = process.env.NEXT_PUBLIC_API_KEY;
-
   try {
     const url = inputYearValue
       ? `https://www.omdbapi.com/?t=${inputNameValue}&y=${inputYearValue}&apikey=${key}`

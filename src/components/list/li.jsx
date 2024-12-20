@@ -12,7 +12,7 @@ export default function Li({ liData, onDelete }) {
           onClick={onDelete}
         >
           <div className="ml-[-10px]">Remove</div>
-          <img src="/icons/trash.png" alt="Trash Icon" className="w-6 ml-2" />
+          <img src="/Icons/trash.png" alt="Trash Icon" className="w-6 ml-2" />
         </button>
       </div>
     </li>

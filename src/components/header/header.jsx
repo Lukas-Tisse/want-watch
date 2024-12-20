@@ -1,5 +1,5 @@
 import Modal from "../modal/modal";
-import { requestAPI } from "../modal/request.mjs";
+import requestAPI from "@/components/header/request.js";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Search } from "react-bootstrap-icons";
