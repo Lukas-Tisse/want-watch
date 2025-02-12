@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-800 text-gray-100;
+  }
+
+  input:-webkit-autofill {
+    @apply bg-transparent text-gray-300;
+    box-shadow: 0 0 0px 1000px #1f2937 inset !important;
+  }
+
+  input:-webkit-autofill::first-line {
+    @apply text-gray-300;
+  }
+}
+
+.container {
+  @apply mx-auto w-full max-w-[1200px] px-6;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #374151B3;
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #10b98180;
+  border-radius: 14px;
+}
